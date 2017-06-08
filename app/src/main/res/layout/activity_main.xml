@@ -39,7 +39,7 @@
             android:layout_below="@+id/question1"
             android:text="Option 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton1.2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,14 +47,15 @@
             android:layout_alignRight="@+id/welcome"
             android:layout_below="@+id/question1"
             android:text="Option 2" />
+        
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton1.3"
             style="@style/left"
             android:layout_below="@+id/radioButton1.1"
             android:text="Option 3" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton1.4"
             style="@style/right"
             android:layout_below="@+id/radioButton1.2"
@@ -66,25 +67,25 @@
             android:layout_below="@+id/radioButton1.3"
             android:text="2. This is question number two! Seclect option no. 2" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton2.1"
             android:layout_below="@+id/question2"
            style="@style/left"
             android:text="Option 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton2.2"
             style="@style/right"
             android:layout_below="@+id/question2"
             android:text="Option 2" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton2.3"
             style="@style/left"
             android:layout_below="@+id/radioButton2.1"
             android:text="Option 3" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton2.4"
             style="@style/right"
             android:layout_below="@+id/radioButton2.2"
@@ -99,13 +100,13 @@
 
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton3.1"
             style="@style/left"
             android:layout_below="@+id/question3"
             android:text="Option 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton3.2"
             style="@style/right"
             android:layout_alignBaseline="@+id/radioButton3.1"
@@ -113,13 +114,13 @@
 
             android:text="Option 2" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton3.3"
             style="@style/left"
             android:layout_below="@+id/radioButton3.1"
             android:text="Option 3" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton3.4"
             style="@style/right"
             android:layout_below="@+id/radioButton3.2"
@@ -131,21 +132,21 @@
             android:layout_below="@+id/radioButton3.3"
             android:text="4. This is question number four! Seclect option no. 4" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton4.1"
             style="@style/left"
             android:layout_alignTop="@+id/question4"
             android:layout_marginTop="19dp"
             android:text="Option 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton4.2"
             android:layout_alignBaseline="@+id/radioButton4.1"
             android:layout_alignBottom="@+id/radioButton4.1"
             style="@style/right"
             android:text="Option 2" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton4.3"
             style="@style/left"
             android:layout_below="@+id/radioButton4.1"
@@ -153,7 +154,7 @@
 
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton4.4"
             style="@style/right"
             android:layout_below="@+id/radioButton4.2"
@@ -165,14 +166,14 @@
             android:layout_below="@+id/radioButton4.3"
             android:text="5. This is question number five! Seclect option no. 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton5.1"
             style="@style/left"
             android:layout_below="@+id/question5"
             android:text="Option 1" />
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton5.2"
             style="@style/right"
             android:layout_below="@+id/question5"
@@ -180,14 +181,14 @@
 
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton5.3"
             style="@style/left"
             android:layout_below="@+id/radioButton5.1"
             android:text="Option 3" />
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton5.4"
             style="@style/right"
             android:layout_below="@+id/radioButton5.2"
@@ -200,27 +201,27 @@
             android:layout_below="@+id/radioButton5.3"
             android:text="6. This is question number six! Seclect option no. 2" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton6.1"
             style="@style/left"
             android:layout_below="@+id/question6"
             android:text="Option 1" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton6.2"
             style="@style/right"
             android:layout_below="@+id/question6"
             android:text="Option 2" />
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton6.3"
             style="@style/left"
             android:layout_below="@+id/radioButton6.1"
             android:text="Option 3" />
 
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/radioButton6.4"
             style="@style/right"
             android:layout_below="@+id/radioButton6.2"
