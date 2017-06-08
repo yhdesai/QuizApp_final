@@ -149,48 +149,33 @@
             android:layout_alignStart="@+id/radioButton2.4"
             android:text="Option 2" />
 
+        <RadioButton
+            android:id="@+id/radioButton3.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton3.1"
+            android:layout_alignStart="@+id/radioButton3.1"
+            android:layout_below="@+id/radioButton3.1"
+            android:text="Option 3" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <RadioButton
+            android:id="@+id/radioButton3.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton3.2"
+            android:layout_alignStart="@+id/radioButton3.2"
+            android:layout_below="@+id/radioButton3.2"
+            android:text="Option 4" />
 
         <TextView
-            android:id="@+id/question5"
+            android:id="@+id/question4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/radioButton4.3"
+            android:layout_below="@+id/radioButton3.3"
             android:layout_marginTop="20dp"
-            android:text="5. This is question number five! Seclect option no. 1" />
-
-
-
-
-
-
-
+            android:text="4. This is question number four! Seclect option no. 4" />
 
         <RadioButton
             android:id="@+id/radioButton4.1"
@@ -203,28 +188,6 @@
             android:text="Option 1" />
 
         <RadioButton
-            android:id="@+id/radioButton5.1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton4.3"
-            android:layout_alignStart="@+id/radioButton4.3"
-            android:layout_below="@+id/question5"
-            android:text="Option 1" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <RadioButton
             android:id="@+id/radioButton4.2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -233,6 +196,46 @@
             android:layout_alignLeft="@+id/radioButton3.4"
             android:layout_alignStart="@+id/radioButton3.4"
             android:text="Option 2" />
+
+        <RadioButton
+            android:id="@+id/radioButton4.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton4.1"
+            android:layout_alignStart="@+id/radioButton4.1"
+            android:layout_below="@+id/radioButton4.1"
+            android:text="Option 3" />
+
+
+
+        <RadioButton
+            android:id="@+id/radioButton4.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton4.2"
+            android:layout_alignStart="@+id/radioButton4.2"
+            android:layout_below="@+id/radioButton4.2"
+            android:text="Option 4" />
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radioButton4.3"
+            android:layout_marginTop="20dp"
+            android:text="5. This is question number five! Seclect option no. 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton5.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton4.3"
+            android:layout_alignStart="@+id/radioButton4.3"
+            android:layout_below="@+id/question5"
+            android:text="Option 1" />
+
 
         <RadioButton
             android:id="@+id/radioButton5.2"
@@ -246,33 +249,6 @@
 
 
         <RadioButton
-            android:id="@+id/radioButton2.3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton2.1"
-            android:layout_alignStart="@+id/radioButton2.1"
-            android:layout_below="@+id/radioButton2.1"
-            android:text="Option 3" />
-
-        <RadioButton
-            android:id="@+id/radioButton3.3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton3.1"
-            android:layout_alignStart="@+id/radioButton3.1"
-            android:layout_below="@+id/radioButton3.1"
-            android:text="Option 3" />
-
-        <RadioButton
-            android:id="@+id/radioButton4.3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton4.1"
-            android:layout_alignStart="@+id/radioButton4.1"
-            android:layout_below="@+id/radioButton4.1"
-            android:text="Option 3" />
-
-        <RadioButton
             android:id="@+id/radioButton5.3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -282,27 +258,6 @@
             android:text="Option 3" />
 
 
-
-
-
-        <RadioButton
-            android:id="@+id/radioButton3.4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton3.2"
-            android:layout_alignStart="@+id/radioButton3.2"
-            android:layout_below="@+id/radioButton3.2"
-            android:text="Option 4" />
-
-        <RadioButton
-            android:id="@+id/radioButton4.4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/radioButton4.2"
-            android:layout_alignStart="@+id/radioButton4.2"
-            android:layout_below="@+id/radioButton4.2"
-            android:text="Option 4" />
-
         <RadioButton
             android:id="@+id/radioButton5.4"
             android:layout_width="wrap_content"
@@ -311,18 +266,6 @@
             android:layout_alignStart="@+id/radioButton5.2"
             android:layout_below="@+id/radioButton5.2"
             android:text="Option 4" />
-
-
-
-        <TextView
-            android:id="@+id/question4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/radioButton3.3"
-            android:layout_marginTop="20dp"
-            android:text="4. This is question number four! Seclect option no. 4" />
 
 
         <TextView
@@ -363,7 +306,7 @@
 
 
         <RadioButton
-            android:id="@+id/radioButton25"
+            android:id="@+id/radioButton6.4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/radioButton1.4"
