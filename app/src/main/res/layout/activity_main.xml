@@ -40,8 +40,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/question1"
-            android:layout_toLeftOf="@+id/welcome"
-            android:layout_toStartOf="@+id/welcome"
             android:text="Option 1" />
 
         <RadioButton
@@ -183,7 +181,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/radioButton3.3"
             android:layout_alignStart="@+id/radioButton3.3"
-            android:layout_alignTop="@+id/textView4"
+            android:layout_alignTop="@+id/question4"
             android:layout_marginTop="19dp"
             android:text="Option 1" />
 
@@ -283,7 +281,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/radioButton1.1"
-            android:layout_below="@+id/question5"
+            android:layout_below="@+id/question6"
             android:text="Option 1" />
 
         <RadioButton
