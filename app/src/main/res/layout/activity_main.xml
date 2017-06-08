@@ -7,30 +7,115 @@
     tools:context="io.github.yhdesai.quizapp.MainActivity">
 
 
-    <TextView
+    <RadioButton
+        android:id="@+id/radioButton2.1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Quiz App!"
+        android:layout_alignLeft="@+id/radioButton1.3"
+        android:layout_alignStart="@+id/radioButton1.3"
+        android:layout_below="@+id/textView"
+        android:text="Option 1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioButton1.3"
+        android:layout_marginTop="20dp"
+        android:text="2. This is question number two! Seclect option no. 2" />
+
+    <TextView
         android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to the Quiz App!" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1. This is question number one! Seclect option no. 1"
-        android:layout_below="@+id/welcome"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcome"
+        android:text="1. This is question number one! Seclect option no. 1" />
 
+    <RadioButton
+        android:id="@+id/radioButton1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toLeftOf="@+id/welcome"
+        android:layout_toStartOf="@+id/welcome"
+        android:text="Option 1" />
 
+    <RadioButton
+        android:id="@+id/radioButton1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/welcome"
+        android:layout_alignRight="@+id/welcome"
+        android:layout_below="@+id/textView7"
+        android:text="Option 2" />
 
+    <RadioButton
+        android:id="@+id/radioButton2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton1.4"
+        android:layout_alignStart="@+id/radioButton1.4"
+        android:layout_below="@+id/textView"
+        android:text="Option 2" />
 
+    <RadioButton
+        android:id="@+id/radioButton1.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton1.1"
+        android:layout_alignStart="@+id/radioButton1.1"
+        android:layout_below="@+id/radioButton1.1"
+        android:text="Option 3" />
 
+    <RadioButton
+        android:id="@+id/radioButton2.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton2.1"
+        android:layout_alignStart="@+id/radioButton2.1"
+        android:layout_below="@+id/radioButton2.1"
+        android:text="Option 3" />
 
+    <RadioButton
+        android:id="@+id/radioButton1.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton1.2"
+        android:layout_alignStart="@+id/radioButton1.2"
+        android:layout_below="@+id/radioButton1.2"
+        android:text="Option 4" />
 
+    <RadioButton
+        android:id="@+id/radioButton2.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton2.2"
+        android:layout_alignStart="@+id/radioButton2.2"
+        android:layout_below="@+id/radioButton2.2"
+        android:text="Option 4" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioButton2.3"
+        android:layout_marginTop="20dp"
+        android:text="3. This is question number three! Seclect option no. 3" />
 
 
 </RelativeLayout>
