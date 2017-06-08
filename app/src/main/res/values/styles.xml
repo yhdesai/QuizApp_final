@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content </item>
+        <item name="android:layout_alignLeft">@+id/radioButton1.1</item>
+        <item name="android:layout_alignStart">@+id/radioButton1.1</item>
+    </style>
+
+    <style name="right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@+id/radioButton1.2</item>
+        <item name="android:layout_alignStart">@+id/radioButton1.2</item>
+</style>
+
 </resources>
+
+
