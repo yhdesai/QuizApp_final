@@ -11,16 +11,27 @@
     <style name="left">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content </item>
+        <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_alignLeft">@+id/radioButton1.1</item>
         <item name="android:layout_alignStart">@+id/radioButton1.1</item>
     </style>
 
     <style name="right">
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignLeft">@+id/radioButton1.2</item>
         <item name="android:layout_alignStart">@+id/radioButton1.2</item>
-</style>
+    </style>
+
+    <style name="question">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
 
 </resources>
 
