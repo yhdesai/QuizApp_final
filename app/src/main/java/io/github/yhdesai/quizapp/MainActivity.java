@@ -7,6 +7,15 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+
+
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
     public void Submit (View view) {
         Intent intent = new Intent(MainActivity.this, Result.class);
         startActivity(intent);}
+
+     public void score (View view){
+
+
+     }
+
+
+
+
+
 
 
 }
